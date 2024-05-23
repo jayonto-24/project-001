@@ -1,0 +1,160 @@
+
+.header img{
+    width: 160px;
+    height: auto;
+    padding: 8px 0;
+}
+
+.header{
+    background: #3498db;
+}
+.header ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.header ul li{
+    display: inline-block;
+}
+
+
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 71px;
+    border-right: 1px solid white;
+    transition: .4s;
+}
+
+.banner{
+    background: url(./Img/background-img.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner h2{
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 5px;
+}
+.banner h1 {
+    background: rgba(52,152,219,.6);
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.about{
+    padding: 10px 0;
+    background: #ecf0f1;
+}
+.about h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.about p{
+    max-width: 660px;
+    margin: auto;
+    font-size: 17px;
+}
+
+.service{
+    padding: 60px;
+}
+.service-item {
+    float: left;
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.service-item span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #eee;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 25px 0 25px 0;
+}
+.service-item h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+/* Blog  */
+
+.blog-item{
+
+}
+.blog-item img {
+    margin: 10px 0 15px 0;
+}
+.blog-item p{
+
+}
+
+.blog-right{
+
+}
+.blog-right h2{
+    margin-left: 39px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    font-size: 21px;
+    padding: 6px 11px;
+    border: 1px solid #bdc3c7;
+    margin: 6px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+
+/* Footer  */
+
+.footer{
+    background-color: #34495e;
+    color: white;
+}
+.footer p{
+    padding: 10px 5px;
+    line-height: 35px;
+}
+.social-menu{
+    list-style: none;
+}
+.social-menu li{
+    display: inline-block;
+    font-size: 32px;
+    padding: 3px 9px;
+    line-height: 49px;
+    margin-right: 5px;
+}
+.social-menu li a{
+    color: white;
+}
+.social-menu li a i{
+
+}
